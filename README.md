@@ -4,6 +4,8 @@
 ### 🤖 Imagem do Projeto
 ![projeto](.github/project_screenshot.png)
 
+[Clique aqui para acessar a documentação da API - SWAPI The Star Wars API](https://swapi.dev/documentation)
+
 O projeto precisa ter:
 
 - [x] Listagem de planetas da API (console)
