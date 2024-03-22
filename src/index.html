@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="../assets/icon-guerra-nas-estrelas.png">
+  <title>Censo Galático Star Wars</title>
+</head>
+<body>
+  
+  <h1>Obtenha informações sobre os Planetas de Star Wars!</h1>
+
+  <div id="wrapper">
+    <div id="search_wrapper">
+      <input id="planet_name" type="text" placeholder="Insira o nome do planeta">
+      <input onclick=getPlanetByName() type="submit" value="Pesquisar">
+    </div>
+
+    <div id="infos_wrapper">
+      <div id="planet_info">
+      </div>
+
+      <div id="table_wrapper">
+      </div>
+  
+    </div>
+  
+    <div id="galaxy">
+    </div>
+  </div>
+
+  <footer>Made with ❤️ by Manu</footer>
+  <script src="script.js"></script>
+</body>
+</html>

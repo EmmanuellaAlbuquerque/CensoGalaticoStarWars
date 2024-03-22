@@ -1,0 +1,155 @@
+body {
+  color: #fff;
+  text-align: center;
+  background-image: url("../assets/star-wars-planets.png");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  width: 100%;
+  min-height: 70vh;
+}
+
+p {
+  font-size: 20px;
+}
+
+input {
+  padding: 12px;
+  font-weight: bolder;
+
+  border: none;
+  border-radius: 4px;
+
+  width: 200px;
+}
+
+h1 {
+  margin: 40px 20px 20px;
+  padding: 20px;
+
+  background-color: #00000080;
+}
+
+button {
+  background-color: #fff;
+  padding: 20px; 
+  border: none;
+  border-radius: 15px 50px;
+  margin: 4px;
+
+  width: 200px;
+  height: 150px;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #be1528;
+  color: #fff;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+  margin-top: 10px;
+}
+
+input:focus {
+  color: #be1528;
+  outline: none;
+}
+
+input[type=submit]:hover {
+  background-color: #be1528;
+  color: #fff;
+}
+
+#galaxy {
+  display: grid;
+  place-items: center;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+}
+
+#planet_name {
+  margin-top: 20px;
+}
+
+#planet_info, #residents_table {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 50px;
+
+  width: 100%;
+}
+
+strong {
+  color: #be1528;
+}
+
+table {
+  color: #000;
+
+  margin-left: 100px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+#residents_table th, #residents_table td {
+  width: 100px;
+  padding: 8px;
+}
+
+tbody > tr {
+  background-color: #fff;
+}
+
+tbody > tr:hover {
+  background-color: #be152981;
+  color: #fff;
+}
+
+thead > tr:first-child {
+  color: #fff;
+  background-color: #be1528;
+  font-weight: bolder;
+}
+
+#infos_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#table_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#table_wrapper h3 {
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#no_residents {
+  width: 220px !important;
+}
