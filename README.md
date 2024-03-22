@@ -15,7 +15,7 @@ O projeto precisa ter:
 - [x] Tarefa Bônus - Exiba os residentes de um planeta em uma tabela
 
 ### 🌌 Preview Link
-[Clique aqui para acessar o projeto](https://www.google.com)
+[Clique aqui para acessar o projeto](https://emmanuellaalbuquerque.github.io/CensoGalaticoStarWars/)
 
 ### 🌍 Quando o planeta não tem residentes!
 ![projeto](.github/noresidents_screenshot.png)
